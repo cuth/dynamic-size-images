@@ -1,5 +1,5 @@
-DynamicWidthImgAttrs
-====================
+Dynamic Size Images
+===================
 
 Use the size of the element to assign images from paths in attributes. This requires jQuery. Assign in javascript the attributes that will be used for each element width or height.
 
