@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-size-images",
+  "version": "1.0.3",
+  "description": "Change image src or background image path based on the size of the element",
+  "main": "dist/dynamic-size-images.common.js",
+  "scripts": {
+    "test": "test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cuth/dynamic-size-images.git"
+  },
+  "keywords": [
+    "responsive images"
+  ],
+  "author": "Jon Cuthbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuth/dynamic-size-images/issues"
+  },
+  "homepage": "https://github.com/cuth/dynamic-size-images",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-insert": "^0.3.0"
+  }
+}

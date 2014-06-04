@@ -37,3 +37,18 @@ img[src] {
     visibility: visible;
 }
 ```
+
+jQuery Plugin
+-------------
+For extra convenience use this as a jQuery plugin. The plugin method returns a DynamicSizeImages instance rather than a jQuery object (chaining is not supported).
+```js
+var profile = $('.selector').DynamicSizeImages([
+    {
+        attrName: 'data-src-large',
+        size: 500
+    },
+    {
+        attrName: 'data-src-xlarge'
+    }
+]);
+```
